@@ -2,28 +2,28 @@
 
 Agent Skills for building on Celo and EVM chains. Compatible with [Claude Code](https://claude.ai/code), [Cursor](https://cursor.com), [Windsurf](https://codeium.com/windsurf), [OpenAI Codex](https://openai.com/codex), and other [Agent Skills](https://agentskills.io) compatible tools.
 
-## Installation
+   ## Installation
 
-```bash
-# Install all skills
-npx openskills install celo-org/agent-skills -g
+   ```bash
+   # Install all skills
+   npx skills add celo-org/agent-skills -g
 
-# Install a specific skill
-npx openskills install celo-org/agent-skills --skill evm-hardhat -g
-```
+   # Install a specific skill
+   npx skills add celo-org/agent-skills --skill evm-hardhat -g
+   ```
 
-### Package managers
+   ### Package managers
 
-```bash
-# pnpm
-pnpm dlx openskills install celo-org/agent-skills -g
+   ```bash
+   # pnpm
+   pnpm dlx skills add celo-org/agent-skills -g
 
-# yarn
-yarn dlx openskills install celo-org/agent-skills -g
+   # yarn
+   yarn dlx skills add celo-org/agent-skills -g
 
-# bun
-bunx openskills install celo-org/agent-skills -g
-```
+   # bun
+   bunx skills add celo-org/agent-skills -g
+   ```
 
 ## Source of truth: Celopedia
 
